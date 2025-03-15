@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    paddingTop: Platform.OS === 'android' ? 25 : 0, // Correct usage of Platform
+    paddingTop: Platform.OS === 'android' ? 25 : 0,
   },
   task: {
     flexDirection: 'row',
@@ -28,8 +28,8 @@ const styles = StyleSheet.create({
 export default function App() {
   // Initialize state for tasks
   const [tasks, setTasks] = useState([
-    { key: '1', description: 'Buy groceries', completed: false },
-    { key: '2', description: 'Walk the dog', completed: false },
+    { key: '1', description: 'Buy stuff', completed: false },
+    { key: '2', description: 'Do assignment', completed: false },
   ]);
 
   // Initialize state for the input value
