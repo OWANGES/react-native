@@ -24,7 +24,8 @@
     "todomyapp": "file:"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "gh-pages": "^6.3.0"
   },
   "private": true
 }
